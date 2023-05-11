@@ -11,11 +11,12 @@ const Main = () => {
         <a href="http://katherineascott.com/">Visit My Portfolio</a>
       </span>
       <div className="btn-class">
-        <button className="main-btn email-btn">
+        < button className="main-btn email-btn"> 
           Email<img src={email} className="email"></img>
         </button>
         <button className="main-btn link-btn">
-          LinkedIn<img src={link} className="link" href="https://www.linkedin.com/in/katherine-scott-a0a"></img>
+          LinkedIn<img src={link} className="link" ></img>
+          <a href="mailto:kscott1625@gmail.com"></a>
         </button>
       </div>
       <div className="main-about">
